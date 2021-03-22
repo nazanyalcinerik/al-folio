@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Sivas Cumhuriyet Üniversitesi Yıldızeli MYO</p>
+    <p>Kimya ve Kimyasal İşleme Teknolojileri Böl.</p>
+    <p>Sivas, TURKEY</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Interested in both petroleum and coal geological processes. Extensive experience in source rock, organic geochemistry, trace element, and in-situ analytical techniques. Also proficient in basin modelling and organic geochemistry, including regional petroleum systems and prospect evaluations; source rock characterisation, quality and maturity; HC expulsion and migration focus; basinal heat controls; oil-oil and oil-source correlations through biomarkers. Competence in sedimentary provenance analysis using a number of techniques. Considerable experience in project management.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Specialities: Geology; inorganic and organic geochemistry; Biomarkers, Source rocks, coal geochemistry, petroleum systems; basin modelling; coal petrography; stable isotopes.
