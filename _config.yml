@@ -2,7 +2,7 @@
 title: blank
 timezone: UTC
 collections:
-  projects:
+  books:
     title: Books
     output: true
     permalink: "/books/:path/"
