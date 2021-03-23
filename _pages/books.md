@@ -1,7 +1,7 @@
 ---
-layout: page
 title: books
-permalink: /books/
+permalink: "/books/"
+layout: page
 description: 
 nav: true
 ---
