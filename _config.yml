@@ -12,9 +12,9 @@ collections:
     title: Posts
     output: true
   projects:
-    title: Projects
+    title: Books
     output: true
-    permalink: "/projects/:path/"
+    permalink: "/books/:path/"
   uploads:
     title: Uploads
     output: true
