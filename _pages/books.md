@@ -6,33 +6,33 @@ description:
 nav: true
 ---
 
-<div class="projects grid">
+<div class="books grid">
 
-  {% assign sorted_projects = site.books | sort: "importance" %}
-  {% for project in sorted_projects %}
+  {% assign sorted_books = site.books | sort: "importance" %}
+  {% for book in sorted_books %}
   <div class="grid-item">
-    {% if project.redirect %}
-    <a href="{{ project.redirect }}" target="_blank">
+    {% if book.redirect %}
+    <a href="{{ book.redirect }}" target="_blank">
     {% else %}
-    <a href="{{ project.url | relative_url }}">
+    <a href="{{ book.url | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        {% if book.img %}
+        <img src="{{ book.img | relative_url }}" alt="book thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title text">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+          <h2 class="card-title text">{{ book.title }}</h2>
+          <p class="card-text">{{ book.description }}</p>
           <div class="row ml-1 mr-1 p-0">
-            {% if project.github %}
+            {% if book.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ book.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
-              {% if project.github_stars %}
+              {% if book.github_stars %}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                 <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
+                <span id="{{ book.github_stars }}-stars"></span>
               </span>
               {% endif %}
             </div>
