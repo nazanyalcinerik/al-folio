@@ -37,7 +37,7 @@ description: 'Interested in both petroleum and coal geological processes. Extens
 Specialities: Geology; inorganic and organic geochemistry; Biomarkers, Source rocks,
   coal geochemistry, petroleum systems; basin modelling; coal petrography; stable
   isotopes.
-footer_text: ''
+footer_text: 
 icon: "\U0001F525"
 url: 
 baseurl: 
@@ -61,7 +61,7 @@ blogger_url:
 work_url: 
 keybase_username: 
 wikidata_id: 
-contact_note: ''
+contact_note: 
 google_analytics: G-KNQ2QXV04T
 panelbear_analytics: XXXXXXXXX
 blog_name: blog
