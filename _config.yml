@@ -2,6 +2,10 @@
 title: blank
 timezone: UTC
 collections:
+  projects:
+    title: Books
+    output: true
+    permalink: "/books/:path/"
   news:
     title: News
     output: true
@@ -11,10 +15,6 @@ collections:
   posts:
     title: Posts
     output: true
-  projects:
-    title: Books
-    output: true
-    permalink: "/books/:path/"
   uploads:
     title: Uploads
     output: true
