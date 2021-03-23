@@ -6,7 +6,7 @@ description:
 nav: true
 ---
 
-<div class="books grid">
+<div class="projects grid">
 
   {% assign sorted_books = site.books | sort: "importance" %}
   {% for book in sorted_books %}
