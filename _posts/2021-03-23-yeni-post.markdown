@@ -1,9 +1,0 @@
----
-title: Yeni Post
-date: 2021-03-23 07:21:00 Z
-tags:
-- test 1
----
-
-Bu bir test postudur
-![Başlıksız-1 (2).png](/uploads/Ba%C5%9Fl%C4%B1ks%C4%B1z-1%20(2).png)
